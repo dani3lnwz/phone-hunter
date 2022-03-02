@@ -20,15 +20,11 @@ const toggleSpinner = displayStyle => {
 }
 
 const displaySearchResult = data => {
-    // if(!data){}else{}
     
     const searchResult = document.getElementById('search-result');
     // toogle spinner
     toggleSpinner('block')
     searchResult.textContent = '';
-    // if(data.length == 0){
-    //     console.log('No result found')
-    // }
     data.forEach(data => {
         console.log(data);
         const div = document.createElement('div');
