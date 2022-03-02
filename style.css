@@ -1,0 +1,22 @@
+#details{
+    display: none;
+    margin-bottom: 10px;
+}
+.container{
+    background-color: rgb(253, 251, 251);
+}
+h2{
+    font-weight: bolder;
+    color: rgb(49, 49, 145);
+    padding: 10px;
+}
+.btn{
+    text-align: center;
+    align-items: center;
+}
+#spinner{
+    display: none;
+}
+.name{
+    font-weight: bold;
+}
