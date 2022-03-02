@@ -75,7 +75,7 @@ const displayMobilDetail = mobile => {
     inputValue("radio", mobile.others.Radio)
     inputValue("usb", mobile.others.USB)
     inputValue("gps", mobile.others.GPS)
-    inputValue("waln", mobile.others.WlAN)
+    inputValue("waln", mobile.others.WLAN)
 
 }
 
